@@ -3,6 +3,6 @@ import { ShoeDetail } from "./components/ShoeDetail";
 export default function App(){
    return <div>
       <Nav />
-      {/*<ShoeDetail />*/}
+      <ShoeDetail />
    </div>;
 }
