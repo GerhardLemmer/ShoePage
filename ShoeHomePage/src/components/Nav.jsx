@@ -9,7 +9,7 @@ export function Nav(){
     const [isMobileMenuShown , setIsMobileMenuShown ] = useState(false);
     return  <nav className="flex items-center justify-between">
         {/*logo*/}
-        <a href="#">
+        <a href="#" className="p-4">
             <img src={NikeLogo} alt="Nike logo" className="h-20 w-20" />
         </a>
 
@@ -41,7 +41,7 @@ export function Nav(){
         </div>
 
         {/*cartButton*/}
-        <div className="fixed left-4 bottom-4 lg:static">
+        <div className="fixed left-4 bottom-4 lg:static lg:p-4">
             <div className="flex items-center justify-center rounded-full h-12 w-12 bg-white shadow-md">
                 <FaShoppingCart size={25} />
             </div>

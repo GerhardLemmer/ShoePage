@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @tailwind utilities;
 
+@layer base {
+  body {
+  font-family: 'Fira Sans', sans-serif;
+}
+}
 @layer utilities {
   .flex-center {
     @apply flex items-center justify-center;
