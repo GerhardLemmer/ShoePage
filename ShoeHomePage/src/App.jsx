@@ -7,7 +7,7 @@ import { SHOE_LIST } from "./constant";
 import { Cart } from "./components/Cart";
 import { BiMoon, BiSun } from "react-icons/bi";
 
-export function App() {
+export default function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [currentShoe, setCurrentShoe] = useState(SHOE_LIST[0]);
   const [cartItems, setCartItems] = useState([]);
