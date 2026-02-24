@@ -4,8 +4,10 @@ export function ShoeDetail(){
     return (
         <div className="flex flex-col lg:flex-row-reverse space-y-4 pl-5 pr-5">
             {/*Shoe image*/}
-            <div className="flex-1 from- bg-gradient-to-br from-[#F637CF] via-[#E3D876] to-[#4DD4C6]">
-                 <img src={nike1}/>
+            <div className="flex-1 lg:-mt-32">
+                <div className="h-full flex justify-center items-center from- bg-gradient-to-br from-[#F637CF] via-[#E3D876] to-[#4DD4C6]">
+                    <img src={nike1}/>
+                </div>
             </div>
             <div className="flex-1 space-y-6">
                 {/*title*/}
